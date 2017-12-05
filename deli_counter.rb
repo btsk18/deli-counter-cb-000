@@ -12,7 +12,7 @@ end
 def take_a_number(line, name)
   line << name
   spot = line.index(name) + 1
-  puts "Welcome, #{name}. You are number #{spot}"
+  puts "Welcome, #{name}. You are number #{spot} in line."
 end
 
 def now_serving(array)
