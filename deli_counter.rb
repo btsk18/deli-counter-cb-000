@@ -7,4 +7,5 @@ def line(customers)
   customers.each_with_index { |customer, index|
     line_string + " #{index}. #{customer}"
   }
+  line_string
 end
