@@ -10,6 +10,7 @@ def line(customers)
 end
 
 def take_a_number(line, name)
+  line << name
   spot = line.index(name) + 1
   "Welcome, #{name}. You are number #{spot}"
 end
