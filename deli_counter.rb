@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(customers)
-  return "The line is currently empty." if customers.empty?
+  puts "The line is currently empty." if customers.empty?
   line_string = "The line is currently:"
   customers.each_with_index { |customer, index|
     line_string + " #{index + 1}. #{customer}"
