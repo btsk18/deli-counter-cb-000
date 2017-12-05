@@ -1,5 +1,5 @@
 # Write your code here.
-require pry
+require 'pry'
 def line(customers)
   return puts "The line is currently empty." if customers.empty?
   line_string = "The line is currently:"
