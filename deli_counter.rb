@@ -17,5 +17,3 @@ def now_serving(array)
   puts "Currently serving #{array.first}."
   array.shift
 end
-
-line(["Hi"])
