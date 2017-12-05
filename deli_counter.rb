@@ -10,7 +10,8 @@ def line(customers)
 end
 
 def take_a_number(line, name)
-  "Welcome, #{name}. You are number #{line.index(name) + 1}"
+  spot = line.index(name) + 1
+  "Welcome, #{name}. You are number #{spot}"
 end
 
 def now_serving(array)
