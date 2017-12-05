@@ -12,7 +12,7 @@ end
 def take_a_number(line, name)
   line << name
   spot = line.index(name) + 1
-
+  binding.pry
   "Welcome, #{name}. You are number #{spot}"
 end
 
