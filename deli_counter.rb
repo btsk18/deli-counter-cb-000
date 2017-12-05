@@ -12,3 +12,7 @@ end
 def take_a_number(line, name)
   "Welcome, #{name}. You are number #{line.index(name) + 1}"
 end
+
+def now_serving(array)
+  puts "Current serving #{array.first}"
+end
