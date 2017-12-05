@@ -6,7 +6,7 @@ def line(customers)
   customers.each_with_index { |customer, index|
     line_string + " #{index + 1}. #{customer}"
   }
-  line_string
+  puts line_string
 end
 
 def take_a_number(line, name)
@@ -17,5 +17,3 @@ def now_serving(array)
   puts "Currently serving #{array.first}."
   array.shift
 end
-
-line([])
